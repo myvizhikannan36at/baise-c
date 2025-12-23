@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    char gender = 'M';
+    char gender = 'w';
     printf("%c",gender);
     return 0;
 }
