@@ -1,5 +1,5 @@
+#include<stdio.h>
 int main() {
-  char name[] = "John";
-  printf("Hello %s", name);
+  printf("Hello World!");
   return 0;
 }
