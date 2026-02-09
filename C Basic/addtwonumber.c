@@ -1,5 +1,10 @@
+#include <stdio.h>
 int main() {
-  char name[] = "John";
-  printf("Hello %s", name);
-  return 0;
+    int a,b,sum;
+    a=20;
+    b=30;
+    sum=a+b;
+    printf("%d",sum);  
+
+    return 0;
 }
