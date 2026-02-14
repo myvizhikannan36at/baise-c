@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    int vl;
+    char vl;
     printf("Enter a value :");
-    scanf("%d",&vl);
+    scanf("%c",&vl);
 
     if(vl>=48&&vl<=57){
         printf("Digit");
