@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    int amount;
+    float finalAmount;
+
+    scanf("%d", &amount);
+
+    if(amount >= 5000)
+    {
+        finalAmount = amount - (amount * 0.20);
+        printf("20%% Discount\nFinal Amount: %.2f", finalAmount);
+    }
+    else if(amount >= 2000)
+    {
+        finalAmount = amount - (amount * 0.10);
+        printf("10%% Discount\nFinal Amount: %.2f", finalAmount);
+    }
+    else
+    {
+        printf("No Discount\nFinal Amount: %d", amount);
+    }
+
+    return 0;
+}
