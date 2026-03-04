@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int pin;
+    scanf("%d", &pin);
+
+    if(pin == 4321)
+        printf("Access Granted");
+    else
+        printf("Card Blocked");
+
+    return 0;
+}
